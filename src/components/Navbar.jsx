@@ -49,25 +49,29 @@ const Navbar = () => {
         </Link>
 
         {/* ul for big screen */}
-        <ul className="list-none hidden ms:flex  flex-row gap-10">
+        <ul className="list-none hidden ms:flex flex-row gap-10">
           {navLinks.map((nav) => (
-            <>
-              <li
-                key={nav.id}
-                className={`${
-                  active === nav.title ? "text-white" : "text-secondary"
-                } hover:text-white text-[18px] font-medium cursor-pointer`}
-                onClick={() => setActive(nav.title)}
-              >
-                {nav.id === "git" ? (
-                  <a href="https://github.com/RAHUL956777">{nav.title}</a>
-                ) : nav.id === "cv" ? (
-                  <a href="https://google.com">{nav.title}</a>
-                ) : (
-                  <a href={`#${nav.id}`}>{nav.title}</a>
-                )}
-              </li>
-            </>
+            <li
+              key={nav.id}
+              className={`${
+                active === nav.title ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => setActive(nav.title)}
+            >
+              {nav.id === "git" ? (
+                <a href="https://github.com/Code-With-Amine" target="_blank">
+                  {nav.title}
+                </a>
+              ) : nav.id === "cv" ? (
+                <a href="https://google.com">{nav.title}</a>
+              ) : nav.id == "blog" ? (
+                <a href="https://codewithamine.hashnode.dev/" target="_blank">
+                  {nav.title}
+                </a>
+              ) : (
+                <a href={`#${nav.id}`}>{nav.title}</a>
+              )}
+            </li>
           ))}
         </ul>
 

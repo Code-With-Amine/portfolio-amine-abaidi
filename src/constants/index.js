@@ -12,9 +12,14 @@ import {
   mongodb,
   git,
   carrent,
+  docker,
+  figma,
   jobit,
   tripguide,
   threejs,
+  frontEnd,
+  laravelIcon,
+  mysql
 } from "../assets";
 
 export const navLinks = [
@@ -35,31 +40,31 @@ export const navLinks = [
     title: "Github",
   },
   {
-    id:"cv",
-    title:"Donload-CV"
-  }
+    id: "blog",
+    title: "Blog",
+  },
+  {
+    id: "cv",
+    title: "Donload-CV",
+  },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer",
     icon: web,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
+  {
+    title: "Front End Developer",
+    icon: frontEnd,
+  },
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
   {
     name: "JavaScript",
     icon: javascript,
@@ -96,6 +101,23 @@ const technologies = [
     name: "git",
     icon: git,
   },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "LaravelICon",
+    icon: laravelIcon,
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+  },
+  {
+    name: "Figma",
+    icon: figma,
+  },
+
 ];
 
 const testimonials = [
