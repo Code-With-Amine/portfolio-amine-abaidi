@@ -40,20 +40,17 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>Snippet about me:</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am Rahul Das, a proficient MERN stack web developer currently pursuing
-        my B.Tech degree. Proficient in HTML5, CSS3, JavaScript, React, Tailwind
-        CSS, Node.js, Express.js, and MongoDB, I am also expanding my skill set
-        to include Three.js. With a passion for creating dynamic and immersive
-        web experiences, I strive to merge technical expertise with innovative
-        design to deliver impactful solutions. Let's work together to bring your
-        ideas to life!
+       I’m a highly motivated software developer specializing in building web full stack applications
+       with a great enthusiasm for learning and solving challenges. 
+       I always raise the flag “ in the worst situations I find motivation, 
+       in the most desperate situation, I find inspiration”
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10  justify-center items-center">
