@@ -24,9 +24,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import laravelIcon from "./tech/laravelIcon.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import stickerMaker from "./sticker-maker.png";
+import TaskManager from "./TaskManager.png";
+import touristAgency from "./touristAgency.png";
 
 export {
   mysql,
@@ -53,7 +53,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  carrent,
-  jobit,
-  tripguide,
+  stickerMaker,
+  TaskManager,
+  touristAgency,
 };

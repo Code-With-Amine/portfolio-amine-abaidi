@@ -11,15 +11,15 @@ import {
   nodejs,
   mongodb,
   git,
-  carrent,
   docker,
   figma,
-  jobit,
-  tripguide,
+  stickerMaker,
+  TaskManager,
+  touristAgency,
   threejs,
   frontEnd,
   laravelIcon,
-  mysql
+  mysql,
 } from "../assets";
 
 export const navLinks = [
@@ -42,10 +42,6 @@ export const navLinks = [
   {
     id: "blog",
     title: "Blog",
-  },
-  {
-    id: "cv",
-    title: "Donload-CV",
   },
 ];
 
@@ -117,7 +113,6 @@ const technologies = [
     name: "Figma",
     icon: figma,
   },
-
 ];
 
 const testimonials = [
@@ -149,33 +144,45 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Task Manager",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "task management platform boosts productivity and collaboration with automated notifications, personalized dashboards, and a dynamic scoring system, making task assignment and tracking seamless for admins and motivating for employees.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "TypeScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MySql",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Laravel",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Bootstrap",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: TaskManager,
+    source_code_link: "https://github.com/GrirZouhair/TaskManager",
   },
   {
-    name: "Job IT",
+    name: "Sticker Maker",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The application allows you to chose the paper size and the images you want to make as a stickers collection then it converts them to vector graphics for better printing result and then you can download it.",
     tags: [
       {
         name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux-toolkit",
         color: "blue-text-gradient",
       },
       {
@@ -183,33 +190,37 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "NodeJS",
+        color: "green-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: stickerMaker,
+    source_code_link: "https://github.com/Code-With-Amine/sticker-maker",
   },
   {
-    name: "Trip Guide",
+    name: "Toutist agency Web Application",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The website enables users to register and customize their travel preferences. The website features an  admin section , which allows for easy content modification and management.",
     tags: [
       {
-        name: "nextjs",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "jQuery",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Php",
         color: "pink-text-gradient",
       },
+      {
+        name: "MySQL",
+        color: "red-text-gradient",
+      },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: touristAgency,
+    source_code_link: "https://github.com/Code-With-Amine/tourist-agency",
   },
 ];
 
