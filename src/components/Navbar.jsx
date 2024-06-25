@@ -62,8 +62,6 @@ const Navbar = () => {
                 <a href="https://github.com/Code-With-Amine" target="_blank">
                   {nav.title}
                 </a>
-              ) : nav.id === "cv" ? (
-                <a href="https://google.com">{nav.title}</a>
               ) : nav.id == "blog" ? (
                 <a href="https://codewithamine.hashnode.dev/" target="_blank">
                   {nav.title}
